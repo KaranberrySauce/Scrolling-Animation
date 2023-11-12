@@ -11,6 +11,7 @@ section{
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    padding: 5rem;
 }
 
 header{
@@ -26,16 +27,20 @@ header{
     position: absolute;
     object-fit: cover;
     z-index: -1;
+    height: auto;
+    width: 100%;
 }
 
 .background {
     transform: translateZ(-10px) scale(2);
-    height: auto;
+    /* height: auto;
+    width: 100%; */
 }
 
 .foreground{
     transform: translateZ(-5px) scale(1.5);
-
+    transform: translateY();
+    /* height: 100%; */
 }
 
 .title{
